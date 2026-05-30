@@ -4,7 +4,7 @@ import devices.LCDDisplay;
 import sensor.TemperatureSensor;
 
 public class Main {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         TemperatureSensor sensor = new TemperatureSensor();
         AirConditioner airConditioner = new AirConditioner();
         Heater heater = new Heater();
